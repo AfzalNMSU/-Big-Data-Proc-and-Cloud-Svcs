@@ -1,6 +1,6 @@
 # Taxi Trip Data Analysis in New York City
 
-1. What datetime range does the data cover? How many rows are there total?
+1. The datetime range that the data covers and total available rows
 
 ![image](https://user-images.githubusercontent.com/83153124/197452289-44f10fab-02c2-48a1-8fe0-8feecaa80bde.png)
 
