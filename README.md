@@ -1,4 +1,3 @@
-# Big-Data-Proc-and-Cloud-Svcs
 # Taxi Trip Data Analysis in New York City
 
 1. What datetime range does your data cover? How many rows are there total?
