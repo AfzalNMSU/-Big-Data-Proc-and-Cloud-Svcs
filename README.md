@@ -1,12 +1,12 @@
 # Taxi Trip Data Analysis in New York City
 
-1. What datetime range does your data cover? How many rows are there total?
+1. What datetime range does the data cover? How many rows are there total?
 
 ![image](https://user-images.githubusercontent.com/83153124/197452289-44f10fab-02c2-48a1-8fe0-8feecaa80bde.png)
 
 ![image](https://user-images.githubusercontent.com/83153124/197452340-081926bf-bdb2-41ae-8eff-c6c77299fc8e.png)
 
-2. What are the field names? Give descriptions for each field.
+2. Field names and descriptions for each field.
 
 ![image](https://user-images.githubusercontent.com/83153124/197452454-3887b2c9-a313-46b1-8dec-dbc10b99c8f4.png)
 
@@ -25,7 +25,7 @@
 ##### (m) 'dropoff_longitude' — the longitude where the meter was disengaged
 ##### (n) 'dropoff_latitude' — the latitude where the meter was disengaged
 
-3. Give some sample data for each field.
+3. Sample data for each field.
 
 ![image](https://user-images.githubusercontent.com/83153124/197454266-8c1d7f6a-d46c-4f03-a598-d29ce69863a1.png)
 
@@ -47,7 +47,7 @@
 ##### 'dropoff_longitude': double(12,8),
 ##### 'dropoff_latitude': double(12,8)
 
-5. What is the geographic range of your data (min/max - X/Y)? (a) Plot this (approximately on a map)
+5. The geographic range of the data (min/max - X/Y)? (a) Plot (approximately on a map)
 
 ##### [COMMENT: There are some outliers in the datset. So, I use condition to remove those values. And represent area only of New York city or near New York city.]
 
@@ -57,7 +57,7 @@
 
 ![image](https://user-images.githubusercontent.com/83153124/197454549-a345a1b9-3e6d-4c79-a45a-1d95b5ddbfd4.png)
 
-6. What is the average computed trip distance? (You should use Haversine Distance) (a)Draw a histogram of the trip distances binned anyway you see fit.
+6. Average computed trip distance (Haversine Distance). (a)Histogram of the trip distances binned anyway you see fit.
 
 ##### [COMMENT: There are some outliers in the datset. So, I use condition to remove those values. And take the distances only of New York city or near New York city.]
 
@@ -65,13 +65,13 @@
 
 ![image](https://user-images.githubusercontent.com/83153124/197454960-cd27d654-cccd-462f-ace7-41c67e9ec91b.png)
 
-7. What are the distinct values for each field? (If applicable)
+7. Distinct values for each field
 
 ![image](https://user-images.githubusercontent.com/83153124/197455066-2b6febd8-be0c-468c-9269-1fb3c20060e2.png)
 
 ##### From the table we can see that the 'medallion' and 'hack_license' values are the distinct values for each field.
 
-8. For other numeric types besides lat and lon, what are the min and max values?
+8. For other numeric types besides lat and lon, the min and max values.
 
 ##### From the 'Maximum Passenger Count' we find the value is too big which is 255. And we know there are no taxi exists whicn can have 255 passengers at a time. So, we understand that this is a outlier.
 
@@ -81,17 +81,17 @@
 
 ![image](https://user-images.githubusercontent.com/83153124/197455191-ae23f0de-5475-4c79-a533-d0fe20685da0.png)
 
-9. Create a chart which shows the average number of passengers each hour of the day. (X axis should have 24 hours)
+9. Chart which shows the average number of passengers each hour of the day. (X axis have 24 hours)
 
 ![image](https://user-images.githubusercontent.com/83153124/197455502-03d54126-3038-4bcd-9eb3-b863b6fddad7.png)
 
-10. Create a new CSV file which has only one out of every thousand rows.
+10. CSV file which has only one out of every thousand rows.
 
 ##### A "output_file.csv" file will be created after running the code. Which contains only one out of every thousand rows. Here is a example of some of them.
 
 ![image](https://user-images.githubusercontent.com/83153124/197455701-3e47a53e-b203-40d1-88b3-58952740a513.png)
 
-11. Repeat step 9 with the reduced dataset and compare the two charts.
+11. Repeatation of step 9 with the reduced dataset and comparison of the two charts.
 
 ![image](https://user-images.githubusercontent.com/83153124/197455502-03d54126-3038-4bcd-9eb3-b863b6fddad7.png) ![image](https://user-images.githubusercontent.com/83153124/197455794-96f119d3-16f8-4ba9-8573-ed05d0681e5a.png)
 
