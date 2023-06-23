@@ -1,6 +1,6 @@
 # Title:  Taxi Trip Data Analysis in New York City
 
-Brief summary:
+Brief summary: <br>
 This folder contains code and datasets download link for testing and analyzing New York city taxi trips. The specific technique considered describe the geographic range of the taxi trips, average computed trip distance, and vizualize the results in graphs, plots, and indicate on the New York city map.
 
 Team:
