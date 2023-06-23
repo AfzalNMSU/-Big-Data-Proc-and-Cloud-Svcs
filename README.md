@@ -25,7 +25,7 @@ There are no guarantees made about the accuracy or safety of this source code. T
 
 Platform and Installation:
 Python is needed to run the code.
-     a. Download Anaconda (https://docs.anaconda.com/anaconda/install/)
+     a. Download Anaconda (https://docs.anaconda.com/anaconda/install/) or, Python 3.9.13
      b. Install the Python packages using the anaconda prompt according to the provided "version_requirements.txt" file.
 
 Dataset: 
@@ -34,6 +34,9 @@ The dataset contains two csv files where information are provided of taxi trips 
 Usage:
      a. Download "source_code.ipynb" file and also download the data from the given drive link.
      b. Run the python file with the csv data file within the same folder location.
+
+Commands:
+source_code.py
 
 CPU information:
 		Processor- Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz  3.79GHz
