@@ -12,6 +12,7 @@ Clarkson university
 Potsdam, New York 13699
 
 Source Code Organization:
+
     source_code.ipynb: Tis Python file has the necessary code for automatically testing the taxi trip data and vizualizez the results.
 
 map_NYC.png/: Sample image of New York city
