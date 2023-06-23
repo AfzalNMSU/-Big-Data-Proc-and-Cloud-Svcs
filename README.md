@@ -38,7 +38,9 @@ Usage:
 CPU information:
 		Processor- Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz  3.79GHz
 		RAM- 16.0 GB
-     
+
+# Analyzed results:  The followings provide information about the data and analyzed results from the New York city taxi trip data
+
 1. The datetime range that the data covers and total available rows
 
 ![image](https://user-images.githubusercontent.com/83153124/197452289-44f10fab-02c2-48a1-8fe0-8feecaa80bde.png)
