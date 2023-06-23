@@ -1,28 +1,44 @@
 # Title:  Taxi Trip Data Analysis in New York City
 
 Brief summary:
-This folder contains code and datasets for testing and analyzing algorithms for fingerprint identification and matching. The specific technique considered is the Protected Minutia Cylinder Code (PMCC) algorithm, designed by the Biometric System Lab at the University of Bologna (biolab.csr.unibo.it/research.asp). Our implementation uses the MINDTCT tool from NIST to extract fingerprint minutiae.
+This folder contains code and datasets download link for testing and analyzing New York city taxi trips. The specific technique considered describe the geographic range of the taxi trips, average computed trip distance, and vizualize the results in graphs, plots, and indicate on the New York city map.
 
 Team:
-Afzal Hossain, M. G. Sarwar Murshed 
-Dr. Chen Liu, Dr. Faraz Hussain, Dr. Mahesh Banavar, Dr. Stephanie Schuckers
+Afzal Hossain
 Department of Electrical and Computer Engineering
+Dr. Tyler Conlon
+Data Science Program
 Clarkson university
 Potsdam, New York 13699
 
 Source Code Organization:
-    enroll_verify.py, matching.py: These Python files have the necessary code for automatically running the MccSdk on some samples of the FVC dataset and computing the matching scores for genuine comparison and imposter comparison. And it provides the results for the P-MCC(with template security) algorithms.
+    source_code.ipynb: Tis Python file has the necessary code for automatically testing the taxi trip data and vizualizez the results.
 
-dataset/: Sample images from FVC2002 db1_a for enrollment and verification
+map_NYC.png/: Sample image of New York city
 
-tools/: This directory contains the MINDTCT software from NIST.
+dataset_drive_link.txt/: This file contains the drive link of the required data.
 
-MCCSdk v2.0/: This directory contains the MCC SDK (biolab.csr.unibo.it/research.asp)
+version_requirements.txt/: Verrsion required to run the code.
 
 Disclaimer: 
 There are no guarantees made about the accuracy or safety of this source code. This project was created for research purposes. The authors have attempted to produce code that is both accurate, efficient, and safe, but only limited testing has been performed. The authors of this code shall not be held accountable for any damage caused by using this code or any derivative works.
 
+Platform and Installation:
+Python is needed to run the code.
+     a. Download Anaconda (https://docs.anaconda.com/anaconda/install/)
+     b. Install the Python packages using the anaconda prompt according to the provided "version_requirements.txt" file.
 
+Dataset: 
+The dataset contains two csv files where information are provided of taxi trips in New york city. The files are uploaded to drive and the link is is provided in the "dataset_drive_link.txt/" file.
+
+Usage:
+     a. Download "source_code.ipynb" file and also download the data from the given drive link.
+     b. Run the python file with the csv data file within the same folder location.
+
+CPU information:
+		Processor- Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz  3.79GHz
+		RAM- 16.0 GB
+     
 1. The datetime range that the data covers and total available rows
 
 ![image](https://user-images.githubusercontent.com/83153124/197452289-44f10fab-02c2-48a1-8fe0-8feecaa80bde.png)
