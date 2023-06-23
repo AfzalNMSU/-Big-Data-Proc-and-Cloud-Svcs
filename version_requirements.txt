@@ -1,0 +1,8 @@
+Package                          Version
+-------------------------------- -----------
+opencv-python                    4.7.0.72
+mpmath                           1.2.1
+numpy                            1.23.5
+matplotlib                       3.5.3
+matplotlib-inline                0.1.6
+
