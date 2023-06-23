@@ -1,5 +1,28 @@
 # Title:  Taxi Trip Data Analysis in New York City
 
+Brief summary:
+This folder contains code and datasets for testing and analyzing algorithms for fingerprint identification and matching. The specific technique considered is the Protected Minutia Cylinder Code (PMCC) algorithm, designed by the Biometric System Lab at the University of Bologna (biolab.csr.unibo.it/research.asp). Our implementation uses the MINDTCT tool from NIST to extract fingerprint minutiae.
+
+Team:
+Afzal Hossain, M. G. Sarwar Murshed 
+Dr. Chen Liu, Dr. Faraz Hussain, Dr. Mahesh Banavar, Dr. Stephanie Schuckers
+Department of Electrical and Computer Engineering
+Clarkson university
+Potsdam, New York 13699
+
+Source Code Organization:
+    enroll_verify.py, matching.py: These Python files have the necessary code for automatically running the MccSdk on some samples of the FVC dataset and computing the matching scores for genuine comparison and imposter comparison. And it provides the results for the P-MCC(with template security) algorithms.
+
+dataset/: Sample images from FVC2002 db1_a for enrollment and verification
+
+tools/: This directory contains the MINDTCT software from NIST.
+
+MCCSdk v2.0/: This directory contains the MCC SDK (biolab.csr.unibo.it/research.asp)
+
+Disclaimer: 
+There are no guarantees made about the accuracy or safety of this source code. This project was created for research purposes. The authors have attempted to produce code that is both accurate, efficient, and safe, but only limited testing has been performed. The authors of this code shall not be held accountable for any damage caused by using this code or any derivative works.
+
+
 1. The datetime range that the data covers and total available rows
 
 ![image](https://user-images.githubusercontent.com/83153124/197452289-44f10fab-02c2-48a1-8fe0-8feecaa80bde.png)
