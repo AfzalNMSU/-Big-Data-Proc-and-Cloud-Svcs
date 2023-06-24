@@ -33,7 +33,7 @@ The dataset contains two csv files where information are provided of taxi trips 
 
 Usage: <br>
      a. Download "source_code.ipynb" or, "source_code.py" file and also download the data from the given drive link. <br>
-     b. Run the python file with the csv data file within the same folder location.
+     b. Run the python file with the csv data files within the same folder location.
 
 Commands: <br>
 source_code.py
