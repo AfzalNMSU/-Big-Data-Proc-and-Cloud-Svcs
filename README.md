@@ -32,7 +32,7 @@ Dataset:  <br>
 The dataset contains two csv files where information are provided of taxi trips in New york city. The files are uploaded to drive and the link is is provided in the "dataset_drive_link.txt/" file.
 
 Usage: <br>
-     a. Download "source_code.ipynb" file and also download the data from the given drive link. <br>
+     a. Download "source_code.ipynb" or, "source_code.py" file and also download the data from the given drive link. <br>
      b. Run the python file with the csv data file within the same folder location.
 
 Commands: <br>
