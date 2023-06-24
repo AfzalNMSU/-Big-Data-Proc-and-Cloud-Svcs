@@ -18,7 +18,7 @@ map_NYC.png/: Sample image of New York city
 
 dataset_drive_link.txt/: This file contains the drive link of the required data.
 
-version_requirements.txt/: Verrsion required to run the code.
+version_requirements.txt/: Verrsions of python packages required to run the code.
 
 Disclaimer:  <br>
 There are no guarantees made about the accuracy or safety of this source code. This project was created for research purposes. The authors have attempted to produce code that is both accurate, efficient, and safe, but only limited testing has been performed. The authors of this code shall not be held accountable for any damage caused by using this code or any derivative works.
